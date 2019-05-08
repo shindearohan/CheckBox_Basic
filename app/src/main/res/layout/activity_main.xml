@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="Select Your Programming Language:"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/androidcheckBox"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:text="Android"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <CheckBox
+        android:id="@+id/javacheckBox3"
+        android:layout_width="168dp"
+        android:layout_height="45dp"
+        android:text="Java"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light" />
+
+    <CheckBox
+        android:id="@+id/phpcheckBox4"
+        android:layout_width="167dp"
+        android:layout_height="47dp"
+        android:textStyle="bold"
+        android:text="PHP" />
+
+    <CheckBox
+        android:id="@+id/pythoncheckBox5"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:textStyle="bold"
+        android:text="Python" />
+
+    <CheckBox
+        android:id="@+id/unitycheckBox6"
+        android:layout_width="168dp"
+        android:layout_height="55dp"
+        android:textStyle="bold"
+        android:text="Unity 3D" />
+
+</LinearLayout>
